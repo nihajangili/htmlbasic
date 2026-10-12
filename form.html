@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Job Application Form</title>
+</head>
+<body>
+<h1>Job Application Form</h1>
+<hr>
+<form>
+<!-- Personal Details -->
+<fieldset>
+<legend>Personal Details</legend>
+<label>Full Name:</label>
+            <input type="text" name="name" placeholder="Enter your name">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter your email">
+            <br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" placeholder="Enter phone number">
+            <br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date" name="dob">
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+            <br><br>
+
+            <label>Address:</label>
+            <br>
+            <textarea name="address" rows="4" cols="40"
+                      placeholder="Enter your address"></textarea>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Educational Details -->
+        <fieldset>
+            <legend>Educational Details</legend>
+
+            <label>Highest Qualification:</label>
+            <select name="qualification">
+                <option>Select Qualification</option>
+                <option>B.Tech</option>
+                <option>M.Tech</option>
+                <option>B.Sc</option>
+                <option>MBA</option>
+                <option>Other</option>
+            </select>
+            <br><br>
+
+            <label>College Name:</label>
+            <input type="text" name="college" placeholder="Enter college name">
+            <br><br>
+
+            <label>Branch:</label>
+            <input type="text" name="branch" placeholder="Enter your branch">
+            <br><br>
+
+            <label>Graduation Year:</label>
+            <input type="number" name="year" placeholder="Enter year">
+            <br><br>
+
+            <label>Percentage / CGPA:</label>
+            <input type="text" name="cgpa" placeholder="Enter percentage or CGPA">
+
+        </fieldset>
+
+        <br>
+
+        <!-- Skills -->
+        <fieldset>
+            <legend>Skills</legend>
+
+            <label>Select your skills:</label>
+            <br><br>
+
+            <input type="checkbox" name="skills"> Python
+            <br>
+
+            <input type="checkbox" name="skills"> Java
+            <br>
+
+            <input type="checkbox" name="skills"> HTML
+            <br>
+
+            <input type="checkbox" name="skills"> CSS
+            <br>
+
+            <input type="checkbox" name="skills"> JavaScript
+            <br>
+
+            <input type="checkbox" name="skills"> SQL
+            <br><br>
+
+            <label>Other Skills:</label>
+            <input type="text" name="otherskills" placeholder="Enter other skills">
+
+        </fieldset>
+
+        <br>
+
+        <!-- Terms and Conditions -->
+        <fieldset>
+            <legend>Terms and Conditions</legend>
+
+            <input type="checkbox" name="terms">
+            I confirm that the information provided above is correct.
+            <br><br>
+
+            <input type="checkbox" name="agreement">
+            I agree to the terms and conditions of the company.
+            <br><br>
+
+            <input type="checkbox" name="privacy">
+            I agree to the company's privacy policy.
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit Application">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
+```
