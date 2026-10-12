@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>First</title>
+</head>
+<body>
+<h1>HTML INTRO</h1>
+<h2>Basics</h2>
+<p><b>Hieeee</b> <mark>Welcome</mark> to <strong>HTML</strong>class<i>today</i>we are discussing about intro and text formatting tags </p>
+<p>Html contains <u>Tags and elements</u></p>
+<p>you <em>must</em> complete the assignment</p>
+<p><small>Terms and Conditions</small>will apply</p>
+<p>original price is <del>2000</del> and new price is 1500</p>
+<p>Water is known as H<sub>2</sub>O</p>
+<p>X<sup>2</sup></p>
+</body>
+</html>
